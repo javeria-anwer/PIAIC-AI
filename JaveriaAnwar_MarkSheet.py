@@ -16,7 +16,7 @@ percentage = (total_marks / 500)*100
 
 grade = "F"
 
-if(percentage>80):
+if(percentage>=80):
     grade="A+"
 elif(percentage<80 and percentage>=70):
     grade="A"
